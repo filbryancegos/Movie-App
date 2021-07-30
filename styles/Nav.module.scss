@@ -1,0 +1,27 @@
+.headerbg {
+	background-color: #032541;
+	padding: 20px 0;
+}
+.companylogo img {
+	width: 180px;
+}
+
+.navitem {
+	@apply flex items-center;
+	li {
+		
+		padding: 10px;
+		font-size: 18px;
+	}
+	a {
+		color: #fff;
+		&:hover,
+		&.current {
+			color: #40b5e0
+		}
+		
+	}
+
+
+}
+

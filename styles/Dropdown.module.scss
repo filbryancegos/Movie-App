@@ -1,0 +1,36 @@
+.customSelect {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    color: #fff;
+	.value {
+		color: #fff;
+	}
+	svg {
+		color: #fff;
+		height: 1.4rem;
+		width: 1.4rem;
+	}
+	
+}
+
+.selectOptions {
+	background: #082541;
+    color: #fff;
+	margin-top:10px;
+	border-radius: 4px;
+	li {
+		padding: 10px 20px;
+		cursor: pointer;
+		&:hover {
+			background: #000;
+		}
+	}
+}
+
+.filter {
+	border-radius: 4px;
+    padding: 13px 20px;
+    border: 1px solid #082541;
+	position: relative;
+}

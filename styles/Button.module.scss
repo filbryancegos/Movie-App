@@ -1,0 +1,15 @@
+.btn {
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 20px;
+	background: #082541;
+	border-radius: 4px;
+	margin-top: 10px;
+	width: 100%;
+	&-primary {
+		background: #000;
+	}
+	&:hover {
+		background: #030e19;
+	}
+}
